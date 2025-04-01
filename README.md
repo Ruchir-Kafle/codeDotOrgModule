@@ -1,6 +1,6 @@
 # codeDotOrgModule
 
-This is a simple placeholder module that was created for convenience for my AP Computer Science Principles class.
+This is a simple helper module that I created for my convenience in my AP Computer Science Principles class.
 
 # Description
 

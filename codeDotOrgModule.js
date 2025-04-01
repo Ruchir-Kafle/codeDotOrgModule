@@ -1,5 +1,5 @@
 export function onEvent(id, type, callback) {
-    
+    console.log(`The callback function ${callback.name} is being triggered whenever a ${type} happens on ${id}.`)
 }
 
 export function getText(id) {
@@ -13,7 +13,6 @@ export function setText(id, text) {
 export function getNumber(id) {
     return `${id}'s number`;
 }
-
 
 export function playSound(url, loop) {
     console.log(`Playing ${url}, which is ${loop ? "" : "not"} looping`);
@@ -82,7 +81,9 @@ export function removeItem(list, index) {
 
 
 export function getColumn(table, column) {
-    return ["placeholder" * 5];
+    let returnList = ["placeholder" * 5];
+    console.log(`The ${column} column of the ${table} table contains: ${returnList}.`)
+    return returnList;
 }
 
 
